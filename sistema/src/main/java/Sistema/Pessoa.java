@@ -1,13 +1,13 @@
 package Sistema;
 
 public abstract class Pessoa{
-   
+
     String nome;
     int cpf;
     String email;
     int telefone;
     
-     public String getNome() {
+    public String getNome() {
         return nome;
     }
     public void setNome(String nome) {
