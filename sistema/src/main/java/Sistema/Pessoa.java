@@ -6,6 +6,8 @@ public abstract class Pessoa{
     int cpf;
     String email;
     int telefone;
+    String ctps;
+
     
     public String getNome() {
         return nome;
@@ -30,6 +32,14 @@ public abstract class Pessoa{
     }
     public void setTelefone(int telefone) {
         this.telefone = telefone;
+    }
+
+     public String getCtps() {
+        return ctps;
+    }
+    public void setCtps(String ctps) {
+        this.ctps = ctps;
+
     }
 
     

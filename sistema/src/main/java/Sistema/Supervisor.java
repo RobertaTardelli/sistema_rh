@@ -10,6 +10,7 @@ super(matricula, nome, cpf, email, telefone, tipo);
     @Override
     public double fgts() {
         return getTipo ().getSalarioBase() *0.08;
+      
     }
 
     @Override
